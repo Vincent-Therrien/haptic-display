@@ -1,0 +1,23 @@
+{
+    "Title": "Haptic display",
+    "File": "File",
+    "Quit": "Quit\t Ctrl+Q",
+    "Open": "Open\t Ctrl+O",
+    "Close": "Close\t Ctrl+C",
+    "View": "View",
+    "Zoom in": "Zoom in\t Ctrl+",
+    "Zoom out": "Zoom out\t Ctrl-",
+    "Subdivide": "Subdivide\t Type a digit",
+    "Change subdivision": "Change Subdivision\t arrows",
+    "Language": "Language",
+    "en": "English",
+    "fr": "French",
+    "ImgSelect": "Select an image",
+    "Device": "Device",
+    "DeviceWindow": "Device properties",
+    "SerieNumber": "Serial number",
+    "Resolution": "Resolution",
+    "Status": "State",
+    "Active": "Active",
+    "Inactive": "Inactive"
+}

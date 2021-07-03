@@ -1,0 +1,1217 @@
+EESchema Schematic File Version 4
+LIBS:pilotage-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 2300 2150 2    50   BiDi ~ 0
+moteur_s_a
+Text GLabel 3500 2150 0    50   BiDi ~ 0
+moteur_g_1_b
+Text GLabel 3500 2400 0    50   BiDi ~ 0
+moteur_g_2_b
+Text GLabel 3500 2650 0    50   BiDi ~ 0
+moteur_g_3_b
+Text GLabel 3500 2900 0    50   BiDi ~ 0
+moteur_g_4_b
+Text GLabel 3500 3150 0    50   BiDi ~ 0
+moteur_g_5_b
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3A89
+P 1900 1850
+AR Path="/603DB044/604E3A89" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3A89" Ref="Q13"  Part="1" 
+F 0 "Q13" H 2105 1896 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 2105 1805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2100 1950 50  0001 C CNN
+F 3 "~" H 1900 1850 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 1900 1850 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 1900 1850 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 1900 1850 50  0001 C CNN "Manufacturer Part Number"
+	1    1900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 604E3A93
+P 3600 1900
+AR Path="/60455D0B/604E3A93" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3A93" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3A93" Ref="D15"  Part="1" 
+F 0 "D15" V 3550 1700 50  0000 L CNN
+F 1 "1N4148" V 3650 1500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3600 1900 50  0001 C CNN
+F 3 "~" H 3600 1900 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 3600 1900 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 3600 1900 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 3600 1900 50  0001 C CNN "Manufacturer Part Number"
+	1    3600 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3A9D
+P 4200 1850
+AR Path="/603DB044/604E3A9D" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3A9D" Ref="Q15"  Part="1" 
+F 0 "Q15" H 4050 1900 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 3700 1700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 1950 50  0001 C CNN
+F 3 "~" H 4200 1850 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 4200 1850 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 4200 1850 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 4200 1850 50  0001 C CNN "Manufacturer Part Number"
+	1    4200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1550 1250 1500
+Wire Wire Line
+	2000 1650 2000 1550
+Wire Wire Line
+	2000 1550 1250 1550
+$Comp
+L Device:D D?
+U 1 1 604E3AB0
+P 1250 1800
+AR Path="/60455D0B/604E3AB0" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3AB0" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3AB0" Ref="D13"  Part="1" 
+F 0 "D13" V 1200 1600 50  0000 L CNN
+F 1 "1N4148" V 1300 1450 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1250 1800 50  0001 C CNN
+F 3 "~" H 1250 1800 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 1250 1800 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 1250 1800 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 1250 1800 50  0001 C CNN "Manufacturer Part Number"
+	1    1250 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 1650 1250 1550
+Connection ~ 1250 1550
+Wire Wire Line
+	1250 1950 1250 2150
+Wire Wire Line
+	1250 2150 2000 2150
+Wire Wire Line
+	2000 2050 2000 2150
+Connection ~ 2000 2150
+Wire Wire Line
+	2000 2150 2300 2150
+$Comp
+L Device:D D?
+U 1 1 604E3AC2
+P 1250 6050
+AR Path="/60455D0B/604E3AC2" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3AC2" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3AC2" Ref="D14"  Part="1" 
+F 0 "D14" V 1200 5800 50  0000 L CNN
+F 1 "1N4148" V 1300 5650 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1250 6050 50  0001 C CNN
+F 3 "~" H 1250 6050 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 1250 6050 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 1250 6050 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 1250 6050 50  0001 C CNN "Manufacturer Part Number"
+	1    1250 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 5800 1250 5900
+Wire Wire Line
+	4300 1650 4300 1550
+Wire Wire Line
+	4300 1550 3600 1550
+Connection ~ 2000 1550
+Wire Wire Line
+	3600 1750 3600 1550
+Connection ~ 3600 1550
+Wire Wire Line
+	3600 1550 2000 1550
+Wire Wire Line
+	3500 2150 3600 2150
+Wire Wire Line
+	4300 2150 4300 2050
+Wire Wire Line
+	3600 2050 3600 2150
+Connection ~ 3600 2150
+Wire Wire Line
+	3600 2150 4300 2150
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3ADE
+P 1900 6050
+AR Path="/603DB044/604E3ADE" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3ADE" Ref="Q14"  Part="1" 
+F 0 "Q14" H 2105 6096 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 2105 6005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2100 6150 50  0001 C CNN
+F 3 "~" H 1900 6050 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 1900 6050 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 1900 6050 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 1900 6050 50  0001 C CNN "Manufacturer Part Number"
+	1    1900 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5850 2000 5800
+Wire Wire Line
+	2000 5800 1250 5800
+Text GLabel 4000 1850 0    50   BiDi ~ 0
+g1h
+$Comp
+L Device:D D?
+U 1 1 604E3AFB
+P 4900 1900
+AR Path="/60455D0B/604E3AFB" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3AFB" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3AFB" Ref="D19"  Part="1" 
+F 0 "D19" V 4850 1700 50  0000 L CNN
+F 1 "1N4148" V 4950 1500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4900 1900 50  0001 C CNN
+F 3 "~" H 4900 1900 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 4900 1900 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 4900 1900 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 4900 1900 50  0001 C CNN "Manufacturer Part Number"
+	1    4900 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3B05
+P 5500 1850
+AR Path="/603DB044/604E3B05" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3B05" Ref="Q19"  Part="1" 
+F 0 "Q19" H 5350 1900 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 5000 1700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 1950 50  0001 C CNN
+F 3 "~" H 5500 1850 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 5500 1850 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 5500 1850 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 5500 1850 50  0001 C CNN "Manufacturer Part Number"
+	1    5500 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 1850 0    50   BiDi ~ 0
+g2h
+$Comp
+L Device:D D?
+U 1 1 604E3B10
+P 6400 1850
+AR Path="/60455D0B/604E3B10" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3B10" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3B10" Ref="D23"  Part="1" 
+F 0 "D23" V 6350 1650 50  0000 L CNN
+F 1 "1N4148" V 6450 1450 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6400 1850 50  0001 C CNN
+F 3 "~" H 6400 1850 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 6400 1850 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 6400 1850 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 6400 1850 50  0001 C CNN "Manufacturer Part Number"
+	1    6400 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3B1A
+P 7000 1800
+AR Path="/603DB044/604E3B1A" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3B1A" Ref="Q23"  Part="1" 
+F 0 "Q23" H 6850 1850 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 6500 1650 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7200 1900 50  0001 C CNN
+F 3 "~" H 7000 1800 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 7000 1800 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 7000 1800 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 7000 1800 50  0001 C CNN "Manufacturer Part Number"
+	1    7000 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 1800 0    50   BiDi ~ 0
+g3h
+$Comp
+L Device:D D?
+U 1 1 604E3B25
+P 7950 1850
+AR Path="/60455D0B/604E3B25" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3B25" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3B25" Ref="D27"  Part="1" 
+F 0 "D27" V 7900 1650 50  0000 L CNN
+F 1 "1N4148" V 8000 1450 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7950 1850 50  0001 C CNN
+F 3 "~" H 7950 1850 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 7950 1850 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 7950 1850 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 7950 1850 50  0001 C CNN "Manufacturer Part Number"
+	1    7950 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3B2F
+P 8550 1800
+AR Path="/603DB044/604E3B2F" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3B2F" Ref="Q27"  Part="1" 
+F 0 "Q27" H 8400 1850 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 8050 1650 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8750 1900 50  0001 C CNN
+F 3 "~" H 8550 1800 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 8550 1800 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 8550 1800 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 8550 1800 50  0001 C CNN "Manufacturer Part Number"
+	1    8550 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 1800 0    50   BiDi ~ 0
+g4h
+$Comp
+L Device:D D?
+U 1 1 604E3B3A
+P 9500 1850
+AR Path="/60455D0B/604E3B3A" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3B3A" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3B3A" Ref="D31"  Part="1" 
+F 0 "D31" V 9450 1650 50  0000 L CNN
+F 1 "1N4148" V 9550 1450 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9500 1850 50  0001 C CNN
+F 3 "~" H 9500 1850 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 9500 1850 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 9500 1850 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 9500 1850 50  0001 C CNN "Manufacturer Part Number"
+	1    9500 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3B44
+P 10100 1800
+AR Path="/603DB044/604E3B44" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3B44" Ref="Q31"  Part="1" 
+F 0 "Q31" H 9950 1850 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 9600 1650 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 1900 50  0001 C CNN
+F 3 "~" H 10100 1800 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 10100 1800 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 10100 1800 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 10100 1800 50  0001 C CNN "Manufacturer Part Number"
+	1    10100 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9900 1800 0    50   BiDi ~ 0
+g5h
+Wire Wire Line
+	4900 1750 4900 1550
+Wire Wire Line
+	4900 1550 4300 1550
+Connection ~ 4300 1550
+Wire Wire Line
+	5600 1650 5600 1550
+Wire Wire Line
+	5600 1550 4900 1550
+Connection ~ 4900 1550
+Wire Wire Line
+	6400 1550 5600 1550
+Wire Wire Line
+	6400 1550 6400 1700
+Connection ~ 5600 1550
+Wire Wire Line
+	6400 1550 7100 1550
+Wire Wire Line
+	7100 1550 7100 1600
+Connection ~ 6400 1550
+Wire Wire Line
+	7100 1550 7950 1550
+Connection ~ 7100 1550
+Wire Wire Line
+	7950 1550 7950 1700
+Wire Wire Line
+	7950 1550 8650 1550
+Wire Wire Line
+	8650 1550 8650 1600
+Connection ~ 7950 1550
+Wire Wire Line
+	8650 1550 9500 1550
+Wire Wire Line
+	9500 1550 9500 1700
+Connection ~ 8650 1550
+Wire Wire Line
+	9500 1550 10200 1550
+Wire Wire Line
+	10200 1550 10200 1600
+Connection ~ 9500 1550
+Wire Wire Line
+	10200 2000 10200 3150
+Wire Wire Line
+	10200 3150 9500 3150
+Wire Wire Line
+	9500 2000 9500 3150
+Connection ~ 9500 3150
+Wire Wire Line
+	9500 3150 3500 3150
+Wire Wire Line
+	8650 2000 8650 2900
+Wire Wire Line
+	8650 2900 7950 2900
+Wire Wire Line
+	7950 2000 7950 2900
+Connection ~ 7950 2900
+Wire Wire Line
+	7950 2900 3500 2900
+Wire Wire Line
+	7100 2000 7100 2650
+Wire Wire Line
+	7100 2650 6400 2650
+Wire Wire Line
+	6400 2000 6400 2650
+Connection ~ 6400 2650
+Wire Wire Line
+	6400 2650 3500 2650
+Wire Wire Line
+	5600 2050 5600 2400
+Wire Wire Line
+	5600 2400 4900 2400
+Wire Wire Line
+	4900 2050 4900 2400
+Connection ~ 4900 2400
+Wire Wire Line
+	4900 2400 3500 2400
+Text GLabel 1700 1850 0    50   BiDi ~ 0
+sh
+$Comp
+L Device:D D?
+U 1 1 604E3B7C
+P 9500 3450
+AR Path="/60455D0B/604E3B7C" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3B7C" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3B7C" Ref="D32"  Part="1" 
+F 0 "D32" V 9450 3250 50  0000 L CNN
+F 1 "1N4148" V 9550 3050 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9500 3450 50  0001 C CNN
+F 3 "~" H 9500 3450 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 9500 3450 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 9500 3450 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 9500 3450 50  0001 C CNN "Manufacturer Part Number"
+	1    9500 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3B86
+P 10100 3400
+AR Path="/603DB044/604E3B86" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3B86" Ref="Q32"  Part="1" 
+F 0 "Q32" H 9950 3450 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 9600 3250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 3500 50  0001 C CNN
+F 3 "~" H 10100 3400 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 10100 3400 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 10100 3400 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 10100 3400 50  0001 C CNN "Manufacturer Part Number"
+	1    10100 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 9900 3400 0    50   BiDi ~ 0
+g5b
+Wire Wire Line
+	9500 3300 9500 3150
+Wire Wire Line
+	10200 3200 10200 3150
+Connection ~ 10200 3150
+$Comp
+L Device:D D?
+U 1 1 604E3B9A
+P 7950 3450
+AR Path="/60455D0B/604E3B9A" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3B9A" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3B9A" Ref="D28"  Part="1" 
+F 0 "D28" V 7900 3250 50  0000 L CNN
+F 1 "1N4148" V 8000 3050 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7950 3450 50  0001 C CNN
+F 3 "~" H 7950 3450 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 7950 3450 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 7950 3450 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 7950 3450 50  0001 C CNN "Manufacturer Part Number"
+	1    7950 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3BA4
+P 8550 3400
+AR Path="/603DB044/604E3BA4" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3BA4" Ref="Q28"  Part="1" 
+F 0 "Q28" H 8400 3450 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 8050 3250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8750 3500 50  0001 C CNN
+F 3 "~" H 8550 3400 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 8550 3400 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 8550 3400 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 8550 3400 50  0001 C CNN "Manufacturer Part Number"
+	1    8550 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 3400 0    50   BiDi ~ 0
+g4b
+$Comp
+L Device:D D?
+U 1 1 604E3BAF
+P 6400 3450
+AR Path="/60455D0B/604E3BAF" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3BAF" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3BAF" Ref="D24"  Part="1" 
+F 0 "D24" V 6350 3250 50  0000 L CNN
+F 1 "1N4148" V 6450 3050 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6400 3450 50  0001 C CNN
+F 3 "~" H 6400 3450 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 6400 3450 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 6400 3450 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 6400 3450 50  0001 C CNN "Manufacturer Part Number"
+	1    6400 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3BB9
+P 7000 3400
+AR Path="/603DB044/604E3BB9" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3BB9" Ref="Q24"  Part="1" 
+F 0 "Q24" H 6850 3450 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 6500 3250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7200 3500 50  0001 C CNN
+F 3 "~" H 7000 3400 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 7000 3400 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 7000 3400 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 7000 3400 50  0001 C CNN "Manufacturer Part Number"
+	1    7000 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 3400 0    50   BiDi ~ 0
+g3b
+$Comp
+L Device:D D?
+U 1 1 604E3BC4
+P 4900 3450
+AR Path="/60455D0B/604E3BC4" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3BC4" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3BC4" Ref="D20"  Part="1" 
+F 0 "D20" V 4850 3250 50  0000 L CNN
+F 1 "1N4148" V 4950 3050 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4900 3450 50  0001 C CNN
+F 3 "~" H 4900 3450 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 4900 3450 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 4900 3450 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 4900 3450 50  0001 C CNN "Manufacturer Part Number"
+	1    4900 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3BCE
+P 5500 3400
+AR Path="/603DB044/604E3BCE" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3BCE" Ref="Q20"  Part="1" 
+F 0 "Q20" H 5350 3450 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 5000 3250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 3500 50  0001 C CNN
+F 3 "~" H 5500 3400 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 5500 3400 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 5500 3400 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 5500 3400 50  0001 C CNN "Manufacturer Part Number"
+	1    5500 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 3400 0    50   BiDi ~ 0
+g2b
+$Comp
+L Device:D D?
+U 1 1 604E3BD9
+P 3600 3450
+AR Path="/60455D0B/604E3BD9" Ref="D?"  Part="1" 
+AR Path="/603DB044/604E3BD9" Ref="D?"  Part="1" 
+AR Path="/604E371B/604E3BD9" Ref="D16"  Part="1" 
+F 0 "D16" V 3550 3250 50  0000 L CNN
+F 1 "1N4148" V 3650 3050 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3600 3450 50  0001 C CNN
+F 3 "~" H 3600 3450 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 3600 3450 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 3600 3450 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 3600 3450 50  0001 C CNN "Manufacturer Part Number"
+	1    3600 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 604E3BE3
+P 4200 3400
+AR Path="/603DB044/604E3BE3" Ref="Q?"  Part="1" 
+AR Path="/604E371B/604E3BE3" Ref="Q16"  Part="1" 
+F 0 "Q16" H 4050 3450 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 3700 3250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 3500 50  0001 C CNN
+F 3 "~" H 4200 3400 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 4200 3400 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 4200 3400 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 4200 3400 50  0001 C CNN "Manufacturer Part Number"
+	1    4200 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 3400 0    50   BiDi ~ 0
+g1b
+Wire Wire Line
+	8650 3200 8650 2900
+Connection ~ 8650 2900
+Wire Wire Line
+	7950 3300 7950 2900
+Wire Wire Line
+	7100 3200 7100 2650
+Connection ~ 7100 2650
+Wire Wire Line
+	6400 3300 6400 2650
+Wire Wire Line
+	5600 3200 5600 2400
+Connection ~ 5600 2400
+Wire Wire Line
+	4900 3300 4900 2400
+Wire Wire Line
+	4300 3200 4300 2150
+Connection ~ 4300 2150
+Wire Wire Line
+	3600 3300 3600 2150
+Text GLabel 1700 6050 0    50   BiDi ~ 0
+sb
+Wire Wire Line
+	1250 6200 1250 6300
+Wire Wire Line
+	10200 3600 10200 3700
+Wire Wire Line
+	10200 3700 9500 3700
+Wire Wire Line
+	3600 3700 3600 3600
+Wire Wire Line
+	4300 3600 4300 3700
+Connection ~ 4300 3700
+Wire Wire Line
+	4300 3700 3600 3700
+Wire Wire Line
+	4900 3600 4900 3700
+Connection ~ 4900 3700
+Wire Wire Line
+	4900 3700 4300 3700
+Wire Wire Line
+	5600 3600 5600 3700
+Connection ~ 5600 3700
+Wire Wire Line
+	5600 3700 4900 3700
+Wire Wire Line
+	6400 3600 6400 3700
+Connection ~ 6400 3700
+Wire Wire Line
+	6400 3700 5600 3700
+Wire Wire Line
+	7100 3600 7100 3700
+Connection ~ 7100 3700
+Wire Wire Line
+	7100 3700 6400 3700
+Wire Wire Line
+	7950 3600 7950 3700
+Connection ~ 7950 3700
+Wire Wire Line
+	7950 3700 7100 3700
+Wire Wire Line
+	8650 3600 8650 3700
+Connection ~ 8650 3700
+Wire Wire Line
+	8650 3700 7950 3700
+Wire Wire Line
+	9500 3600 9500 3700
+Connection ~ 9500 3700
+Wire Wire Line
+	9500 3700 8650 3700
+Text GLabel 3500 4600 0    50   BiDi ~ 0
+moteur_d_1_b
+Text GLabel 3500 4850 0    50   BiDi ~ 0
+moteur_d_2_b
+Text GLabel 3500 5100 0    50   BiDi ~ 0
+moteur_d_3_b
+Text GLabel 3500 5350 0    50   BiDi ~ 0
+moteur_d_4_b
+Text GLabel 3500 5600 0    50   BiDi ~ 0
+moteur_d_5_b
+$Comp
+L Device:D D?
+U 1 1 605081E3
+P 3600 4350
+AR Path="/60455D0B/605081E3" Ref="D?"  Part="1" 
+AR Path="/603DB044/605081E3" Ref="D?"  Part="1" 
+AR Path="/604E371B/605081E3" Ref="D17"  Part="1" 
+F 0 "D17" V 3550 4150 50  0000 L CNN
+F 1 "1N4148" V 3650 3950 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3600 4350 50  0001 C CNN
+F 3 "~" H 3600 4350 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 3600 4350 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 3600 4350 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 3600 4350 50  0001 C CNN "Manufacturer Part Number"
+	1    3600 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 605081ED
+P 4200 4300
+AR Path="/603DB044/605081ED" Ref="Q?"  Part="1" 
+AR Path="/604E371B/605081ED" Ref="Q17"  Part="1" 
+F 0 "Q17" H 4050 4350 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 3700 4150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 4400 50  0001 C CNN
+F 3 "~" H 4200 4300 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 4200 4300 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 4200 4300 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 4200 4300 50  0001 C CNN "Manufacturer Part Number"
+	1    4200 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4100 4300 4000
+Wire Wire Line
+	4300 4000 3600 4000
+Wire Wire Line
+	3600 4200 3600 4000
+Wire Wire Line
+	3500 4600 3600 4600
+Wire Wire Line
+	4300 4600 4300 4500
+Wire Wire Line
+	3600 4500 3600 4600
+Connection ~ 3600 4600
+Wire Wire Line
+	3600 4600 4300 4600
+Text GLabel 4000 4300 0    50   BiDi ~ 0
+d1h
+$Comp
+L Device:D D?
+U 1 1 60508202
+P 4900 4350
+AR Path="/60455D0B/60508202" Ref="D?"  Part="1" 
+AR Path="/603DB044/60508202" Ref="D?"  Part="1" 
+AR Path="/604E371B/60508202" Ref="D21"  Part="1" 
+F 0 "D21" V 4850 4150 50  0000 L CNN
+F 1 "1N4148" V 4950 3950 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4900 4350 50  0001 C CNN
+F 3 "~" H 4900 4350 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 4900 4350 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 4900 4350 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 4900 4350 50  0001 C CNN "Manufacturer Part Number"
+	1    4900 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 6050820C
+P 5500 4300
+AR Path="/603DB044/6050820C" Ref="Q?"  Part="1" 
+AR Path="/604E371B/6050820C" Ref="Q21"  Part="1" 
+F 0 "Q21" H 5350 4350 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 5000 4150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 4400 50  0001 C CNN
+F 3 "~" H 5500 4300 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 5500 4300 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 5500 4300 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 5500 4300 50  0001 C CNN "Manufacturer Part Number"
+	1    5500 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 4300 0    50   BiDi ~ 0
+d2h
+$Comp
+L Device:D D?
+U 1 1 60508217
+P 6400 4300
+AR Path="/60455D0B/60508217" Ref="D?"  Part="1" 
+AR Path="/603DB044/60508217" Ref="D?"  Part="1" 
+AR Path="/604E371B/60508217" Ref="D25"  Part="1" 
+F 0 "D25" V 6350 4100 50  0000 L CNN
+F 1 "1N4148" V 6450 3900 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6400 4300 50  0001 C CNN
+F 3 "~" H 6400 4300 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 6400 4300 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 6400 4300 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 6400 4300 50  0001 C CNN "Manufacturer Part Number"
+	1    6400 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 60508221
+P 7000 4250
+AR Path="/603DB044/60508221" Ref="Q?"  Part="1" 
+AR Path="/604E371B/60508221" Ref="Q25"  Part="1" 
+F 0 "Q25" H 6850 4300 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 6500 4100 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7200 4350 50  0001 C CNN
+F 3 "~" H 7000 4250 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 7000 4250 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 7000 4250 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 7000 4250 50  0001 C CNN "Manufacturer Part Number"
+	1    7000 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 4250 0    50   BiDi ~ 0
+d3h
+$Comp
+L Device:D D?
+U 1 1 6050822C
+P 7950 4300
+AR Path="/60455D0B/6050822C" Ref="D?"  Part="1" 
+AR Path="/603DB044/6050822C" Ref="D?"  Part="1" 
+AR Path="/604E371B/6050822C" Ref="D29"  Part="1" 
+F 0 "D29" V 7900 4100 50  0000 L CNN
+F 1 "1N4148" V 8000 3900 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7950 4300 50  0001 C CNN
+F 3 "~" H 7950 4300 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 7950 4300 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 7950 4300 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 7950 4300 50  0001 C CNN "Manufacturer Part Number"
+	1    7950 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 60508236
+P 8550 4250
+AR Path="/603DB044/60508236" Ref="Q?"  Part="1" 
+AR Path="/604E371B/60508236" Ref="Q29"  Part="1" 
+F 0 "Q29" H 8400 4300 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 8050 4100 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8750 4350 50  0001 C CNN
+F 3 "~" H 8550 4250 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 8550 4250 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 8550 4250 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 8550 4250 50  0001 C CNN "Manufacturer Part Number"
+	1    8550 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 4250 0    50   BiDi ~ 0
+d4h
+$Comp
+L Device:D D?
+U 1 1 60508241
+P 9500 4300
+AR Path="/60455D0B/60508241" Ref="D?"  Part="1" 
+AR Path="/603DB044/60508241" Ref="D?"  Part="1" 
+AR Path="/604E371B/60508241" Ref="D33"  Part="1" 
+F 0 "D33" V 9450 4100 50  0000 L CNN
+F 1 "1N4148" V 9550 3900 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9500 4300 50  0001 C CNN
+F 3 "~" H 9500 4300 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 9500 4300 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 9500 4300 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 9500 4300 50  0001 C CNN "Manufacturer Part Number"
+	1    9500 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 6050824B
+P 10100 4250
+AR Path="/603DB044/6050824B" Ref="Q?"  Part="1" 
+AR Path="/604E371B/6050824B" Ref="Q33"  Part="1" 
+F 0 "Q33" H 9950 4300 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 9600 4100 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 4350 50  0001 C CNN
+F 3 "~" H 10100 4250 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 10100 4250 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 10100 4250 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 10100 4250 50  0001 C CNN "Manufacturer Part Number"
+	1    10100 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 9900 4250 0    50   BiDi ~ 0
+d5h
+Wire Wire Line
+	4900 4200 4900 4000
+Wire Wire Line
+	4900 4000 4300 4000
+Connection ~ 4300 4000
+Wire Wire Line
+	5600 4100 5600 4000
+Wire Wire Line
+	5600 4000 4900 4000
+Connection ~ 4900 4000
+Wire Wire Line
+	6400 4000 5600 4000
+Wire Wire Line
+	6400 4000 6400 4150
+Connection ~ 5600 4000
+Wire Wire Line
+	6400 4000 7100 4000
+Wire Wire Line
+	7100 4000 7100 4050
+Connection ~ 6400 4000
+Wire Wire Line
+	7100 4000 7950 4000
+Connection ~ 7100 4000
+Wire Wire Line
+	7950 4000 7950 4150
+Wire Wire Line
+	7950 4000 8650 4000
+Wire Wire Line
+	8650 4000 8650 4050
+Connection ~ 7950 4000
+Wire Wire Line
+	8650 4000 9500 4000
+Wire Wire Line
+	9500 4000 9500 4150
+Connection ~ 8650 4000
+Wire Wire Line
+	9500 4000 10200 4000
+Wire Wire Line
+	10200 4000 10200 4050
+Connection ~ 9500 4000
+Wire Wire Line
+	10200 4450 10200 5600
+Wire Wire Line
+	10200 5600 9500 5600
+Wire Wire Line
+	9500 4450 9500 5600
+Connection ~ 9500 5600
+Wire Wire Line
+	9500 5600 3500 5600
+Wire Wire Line
+	8650 4450 8650 5350
+Wire Wire Line
+	8650 5350 7950 5350
+Wire Wire Line
+	7950 4450 7950 5350
+Connection ~ 7950 5350
+Wire Wire Line
+	7950 5350 3500 5350
+Wire Wire Line
+	7100 4450 7100 5100
+Wire Wire Line
+	7100 5100 6400 5100
+Wire Wire Line
+	6400 4450 6400 5100
+Connection ~ 6400 5100
+Wire Wire Line
+	6400 5100 3500 5100
+Wire Wire Line
+	5600 4500 5600 4850
+Wire Wire Line
+	5600 4850 4900 4850
+Wire Wire Line
+	4900 4500 4900 4850
+Connection ~ 4900 4850
+Wire Wire Line
+	4900 4850 3500 4850
+$Comp
+L Device:D D?
+U 1 1 60508282
+P 9500 5900
+AR Path="/60455D0B/60508282" Ref="D?"  Part="1" 
+AR Path="/603DB044/60508282" Ref="D?"  Part="1" 
+AR Path="/604E371B/60508282" Ref="D34"  Part="1" 
+F 0 "D34" V 9450 5700 50  0000 L CNN
+F 1 "1N4148" V 9550 5500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9500 5900 50  0001 C CNN
+F 3 "~" H 9500 5900 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 9500 5900 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 9500 5900 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 9500 5900 50  0001 C CNN "Manufacturer Part Number"
+	1    9500 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 6050828C
+P 10100 5850
+AR Path="/603DB044/6050828C" Ref="Q?"  Part="1" 
+AR Path="/604E371B/6050828C" Ref="Q34"  Part="1" 
+F 0 "Q34" H 9950 5900 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 9600 5700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 5950 50  0001 C CNN
+F 3 "~" H 10100 5850 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 10100 5850 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 10100 5850 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 10100 5850 50  0001 C CNN "Manufacturer Part Number"
+	1    10100 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9900 5850 0    50   BiDi ~ 0
+d5b
+Wire Wire Line
+	9500 5750 9500 5600
+Wire Wire Line
+	10200 5650 10200 5600
+Connection ~ 10200 5600
+$Comp
+L Device:D D?
+U 1 1 6050829A
+P 7950 5900
+AR Path="/60455D0B/6050829A" Ref="D?"  Part="1" 
+AR Path="/603DB044/6050829A" Ref="D?"  Part="1" 
+AR Path="/604E371B/6050829A" Ref="D30"  Part="1" 
+F 0 "D30" V 7900 5700 50  0000 L CNN
+F 1 "1N4148" V 8000 5500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7950 5900 50  0001 C CNN
+F 3 "~" H 7950 5900 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 7950 5900 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 7950 5900 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 7950 5900 50  0001 C CNN "Manufacturer Part Number"
+	1    7950 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 605082A4
+P 8550 5850
+AR Path="/603DB044/605082A4" Ref="Q?"  Part="1" 
+AR Path="/604E371B/605082A4" Ref="Q30"  Part="1" 
+F 0 "Q30" H 8400 5900 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 8050 5700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8750 5950 50  0001 C CNN
+F 3 "~" H 8550 5850 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 8550 5850 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 8550 5850 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 8550 5850 50  0001 C CNN "Manufacturer Part Number"
+	1    8550 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 5850 0    50   BiDi ~ 0
+d4b
+$Comp
+L Device:D D?
+U 1 1 605082AF
+P 6400 5900
+AR Path="/60455D0B/605082AF" Ref="D?"  Part="1" 
+AR Path="/603DB044/605082AF" Ref="D?"  Part="1" 
+AR Path="/604E371B/605082AF" Ref="D26"  Part="1" 
+F 0 "D26" V 6350 5700 50  0000 L CNN
+F 1 "1N4148" V 6450 5500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6400 5900 50  0001 C CNN
+F 3 "~" H 6400 5900 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 6400 5900 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 6400 5900 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 6400 5900 50  0001 C CNN "Manufacturer Part Number"
+	1    6400 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 605082B9
+P 7000 5850
+AR Path="/603DB044/605082B9" Ref="Q?"  Part="1" 
+AR Path="/604E371B/605082B9" Ref="Q26"  Part="1" 
+F 0 "Q26" H 6850 5900 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 6500 5700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7200 5950 50  0001 C CNN
+F 3 "~" H 7000 5850 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 7000 5850 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 7000 5850 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 7000 5850 50  0001 C CNN "Manufacturer Part Number"
+	1    7000 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 5850 0    50   BiDi ~ 0
+d3b
+$Comp
+L Device:D D?
+U 1 1 605082C4
+P 4900 5900
+AR Path="/60455D0B/605082C4" Ref="D?"  Part="1" 
+AR Path="/603DB044/605082C4" Ref="D?"  Part="1" 
+AR Path="/604E371B/605082C4" Ref="D22"  Part="1" 
+F 0 "D22" V 4850 5700 50  0000 L CNN
+F 1 "1N4148" V 4950 5500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4900 5900 50  0001 C CNN
+F 3 "~" H 4900 5900 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 4900 5900 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 4900 5900 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 4900 5900 50  0001 C CNN "Manufacturer Part Number"
+	1    4900 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 605082CE
+P 5500 5850
+AR Path="/603DB044/605082CE" Ref="Q?"  Part="1" 
+AR Path="/604E371B/605082CE" Ref="Q22"  Part="1" 
+F 0 "Q22" H 5350 5900 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 5000 5700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 5950 50  0001 C CNN
+F 3 "~" H 5500 5850 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 5500 5850 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 5500 5850 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 5500 5850 50  0001 C CNN "Manufacturer Part Number"
+	1    5500 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 5850 0    50   BiDi ~ 0
+d2b
+$Comp
+L Device:D D?
+U 1 1 605082D9
+P 3600 5900
+AR Path="/60455D0B/605082D9" Ref="D?"  Part="1" 
+AR Path="/603DB044/605082D9" Ref="D?"  Part="1" 
+AR Path="/604E371B/605082D9" Ref="D18"  Part="1" 
+F 0 "D18" V 3550 5700 50  0000 L CNN
+F 1 "1N4148" V 3650 5500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3600 5900 50  0001 C CNN
+F 3 "~" H 3600 5900 50  0001 C CNN
+F 4 "1N4148WSFSCT-ND" H 3600 5900 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 3600 5900 50  0001 C CNN "Manufacturer"
+F 6 "1N4148WS" H 3600 5900 50  0001 C CNN "Manufacturer Part Number"
+	1    3600 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 605082E3
+P 4200 5850
+AR Path="/603DB044/605082E3" Ref="Q?"  Part="1" 
+AR Path="/604E371B/605082E3" Ref="Q18"  Part="1" 
+F 0 "Q18" H 4050 5900 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 3700 5700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 5950 50  0001 C CNN
+F 3 "~" H 4200 5850 50  0001 C CNN
+F 4 "DMN3404LDICT-ND" H 4200 5850 50  0001 C CNN "DigiKey"
+F 5 "Diodes Incorporated" H 4200 5850 50  0001 C CNN "Manufacturer"
+F 6 "DMN3404L-7" H 4200 5850 50  0001 C CNN "Manufacturer Part Number"
+	1    4200 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 5850 0    50   BiDi ~ 0
+d1b
+Wire Wire Line
+	8650 5650 8650 5350
+Connection ~ 8650 5350
+Wire Wire Line
+	7950 5750 7950 5350
+Wire Wire Line
+	7100 5650 7100 5100
+Connection ~ 7100 5100
+Wire Wire Line
+	6400 5750 6400 5100
+Wire Wire Line
+	5600 5650 5600 4850
+Connection ~ 5600 4850
+Wire Wire Line
+	4900 5750 4900 4850
+Wire Wire Line
+	4300 5650 4300 4600
+Connection ~ 4300 4600
+Wire Wire Line
+	3600 5750 3600 4600
+Wire Wire Line
+	10200 6050 10200 6150
+Wire Wire Line
+	10200 6150 9500 6150
+Wire Wire Line
+	3600 6150 3600 6050
+Wire Wire Line
+	4300 6050 4300 6150
+Connection ~ 4300 6150
+Wire Wire Line
+	4300 6150 3600 6150
+Wire Wire Line
+	4900 6050 4900 6150
+Connection ~ 4900 6150
+Wire Wire Line
+	4900 6150 4300 6150
+Wire Wire Line
+	5600 6050 5600 6150
+Connection ~ 5600 6150
+Wire Wire Line
+	5600 6150 4900 6150
+Wire Wire Line
+	6400 6050 6400 6150
+Connection ~ 6400 6150
+Wire Wire Line
+	6400 6150 5600 6150
+Wire Wire Line
+	7100 6050 7100 6150
+Connection ~ 7100 6150
+Wire Wire Line
+	7100 6150 6400 6150
+Wire Wire Line
+	7950 6050 7950 6150
+Connection ~ 7950 6150
+Wire Wire Line
+	7950 6150 7100 6150
+Wire Wire Line
+	8650 6050 8650 6150
+Connection ~ 8650 6150
+Wire Wire Line
+	8650 6150 7950 6150
+Wire Wire Line
+	9500 6050 9500 6150
+Connection ~ 9500 6150
+Wire Wire Line
+	9500 6150 8650 6150
+Wire Wire Line
+	10200 4000 10900 4000
+Wire Wire Line
+	10900 4000 10900 1550
+Wire Wire Line
+	10900 1550 10200 1550
+Connection ~ 10200 4000
+Connection ~ 10200 1550
+Wire Wire Line
+	10200 3700 10600 3700
+Wire Wire Line
+	10600 3700 10600 6150
+Wire Wire Line
+	10600 6150 10200 6150
+Connection ~ 10200 3700
+Connection ~ 10200 6150
+Connection ~ 2000 5800
+Wire Wire Line
+	2000 6250 2000 6300
+Wire Wire Line
+	2000 6300 1250 6300
+Connection ~ 1250 6300
+Wire Wire Line
+	1250 6300 1250 6350
+Wire Wire Line
+	2000 6300 3600 6300
+Wire Wire Line
+	3600 6300 3600 6150
+Connection ~ 2000 6300
+Connection ~ 3600 6150
+Wire Wire Line
+	2000 2150 2000 5800
+$Comp
+L power:GND #PWR04
+U 1 1 606C60BB
+P 1250 6350
+F 0 "#PWR04" H 1250 6100 50  0001 C CNN
+F 1 "GND" H 1255 6177 50  0000 C CNN
+F 2 "" H 1250 6350 50  0001 C CNN
+F 3 "" H 1250 6350 50  0001 C CNN
+	1    1250 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+7.5V #PWR0102
+U 1 1 60EDC233
+P 1250 1500
+F 0 "#PWR0102" H 1250 1350 50  0001 C CNN
+F 1 "+7.5V" H 1265 1673 50  0000 C CNN
+F 2 "" H 1250 1500 50  0001 C CNN
+F 3 "" H 1250 1500 50  0001 C CNN
+	1    1250 1500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

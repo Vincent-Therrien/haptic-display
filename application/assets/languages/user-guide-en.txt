@@ -1,0 +1,9 @@
+User Guide
+
+Select an image with Ctrl+O and send it to the connected
+device by pressing Enter.
+
+Subdivide the image into smaller regions by pressing a number key
+and navigate around subdivisions with directional arrows.
+
+Close this menu with Ctrl+X.

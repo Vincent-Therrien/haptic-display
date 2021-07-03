@@ -1,0 +1,23 @@
+{
+    "Title": "Affichage haptique",
+    "File": "Fichier",
+    "Quit": "Quitter\t Ctrl+Q",
+    "Open": "Ouvrir\t Ctrl+O",
+    "Close": "Fermer\t Ctrl+C",
+    "View": "Affichage",
+    "Zoom in": "Agrandir\t Ctrl+",
+    "Zoom out": "Diminuer\t Ctrl-",
+    "Subdivide": "Subdiviser\t Tapez un nombre",
+    "Change subdivision": "Changer de subdivision\t flèches",
+    "Language": "Langue",
+    "en": "Anglais",
+    "fr": "Français",
+    "ImgSelect": "Sélectionnez une image",
+    "Device": "Appareil",
+    "DeviceWindow": "Propriétés de l'appareil",
+    "SerieNumber": "Numéro de série",
+    "Resolution": "Résolution",
+    "Status": "État",
+    "Active": "Actif",
+    "Inactive": "Inactif"
+}

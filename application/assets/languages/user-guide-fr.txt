@@ -1,0 +1,10 @@
+Guide d'utilisation
+
+Sélectionnez une image avec la combinaison Ctrl+O et envoyez-là vers
+l'appareil connecté en appuyant sur la touche "Entrée".
+
+Subdivisez une image en régions plus petites en appuyant sur une touche
+correspondant à un nombre et naviguer entre les sous-divisions avec les
+flèches directionnelles.
+
+Fermez cette fenêtre avec la combinaison Ctrl+X.
