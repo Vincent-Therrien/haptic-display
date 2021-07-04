@@ -8,8 +8,8 @@ visually impaired people. A surface acts as a screen whose elements can be
 elevated or lowered to compose pictures accessible through touch.
 
 High prices make this technology unaffordable to many consumers. This project
-demonstrates a haptic display prototype with a low manufacturing cost that
-achieves a ten by ten pixel resolution.
+demonstrates a haptic display prototype with a low manufacturing cost
+(inferior to 100 Canadian dollars) that achieves a ten by ten pixel resolution.
 
 .. figure:: images/GUI-simple-example.png
    :scale: 50 %
@@ -62,5 +62,5 @@ On UNIX,
 
    python3 -m venv venv
    source venv/bin/activate
-   pip install -r application\requirements.txt
+   pip install -r application/requirements.txt
    py application/haptic.py
